@@ -1,0 +1,22 @@
+customCSS = ["css/custom.css"]
+colorScheme = "neon"
+description = "DevOps tutorials, tools, and guides by a Senior DevOps Engineer"
+showReadingTime = true
+showAuthor = true
+showDate = true
+
+[homepage]
+  layout = "profile"
+  showRecent = true
+  showRecentItems = 5
+  showMoreLink = true
+  showMoreLinkDest = "/posts"
+
+[author]
+  name = "Ramya Kolli"
+  headline = "Senior DevOps Engineer"
+  bio = "Writing about Kubernetes, Terraform, AWS and everything DevOps. Real production experience, no fluff."
+  links = [
+    { github = "https://github.com/rkolli99" },
+    { email = "mailto:creativehubkolli@gmail.com" }
+  ]

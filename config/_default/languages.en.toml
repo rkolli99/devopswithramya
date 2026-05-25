@@ -1,0 +1,8 @@
+[author]
+  name = "Ramya Kolli"
+  headline = "Senior DevOps Engineer"
+  bio = "Writing about Kubernetes, Terraform, AWS and everything DevOps. Real production experience, no fluff."
+  links = [
+    { github = "https://github.com/rkolli99" },
+    { email = "mailto:creativehubkolli@gmail.com" }
+  ]

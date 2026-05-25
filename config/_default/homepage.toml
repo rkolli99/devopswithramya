@@ -1,0 +1,5 @@
+layout = "profile"
+showRecent = true
+showRecentItems = 5
+showMoreLink = true
+showMoreLinkDest = "/posts"

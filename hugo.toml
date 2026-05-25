@@ -1,16 +1,7 @@
 baseURL = "https://devopswithramya.com/"
-languageCode = "en-us"
 title = "DevOps With Ramya"
-theme = "PaperMod"
-
-[params]
-  description = "DevOps tutorials, tools, and guides by a Senior DevOps Engineer"
-  author = "Ramya Kolli"
-  ShowReadingTime = true
-  ShowShareButtons = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
+theme = "congo"
+defaultContentLanguage = "en"
 
 [menu]
   [[menu.main]]
