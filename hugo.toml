@@ -1,0 +1,27 @@
+baseURL = "https://devopswithramya.com/"
+languageCode = "en-us"
+title = "DevOps With Ramya"
+theme = "PaperMod"
+
+[params]
+  description = "DevOps tutorials, tools, and guides by a Senior DevOps Engineer"
+  author = "Ramya Kolli"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
