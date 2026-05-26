@@ -1,5 +1,6 @@
 customCSS = ["css/custom.css"]
 colorScheme = "neon"
+googleSiteVerification = "RnZKW1W7BrcUdtxCm25ACmaji5d74y6Ya_Qoitd_DYo"
 description = "DevOps tutorials, tools, and guides by a Senior DevOps Engineer"
 showReadingTime = true
 showAuthor = true
