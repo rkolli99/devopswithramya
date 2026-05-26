@@ -2,8 +2,6 @@ baseURL = "https://devopswithramya.com/"
 title = "DevOps With Ramya"
 theme = "congo"
 defaultContentLanguage = "en"
-[params]
-  googleSiteVerification = "RnZKW1W7BrcUdtxCm25ACmaji5d74y6Ya_Qoitd_DYo"
 
 [menu]
   [[menu.main]]
