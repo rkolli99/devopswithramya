@@ -10,7 +10,7 @@ author: "Ramya Kolli"
 
 > **Kubernetes Pod Failures — Debugging Series**
 > 1. **CrashLoopBackOff** ← you are here
-> 2. Pending *(coming soon)*
+> 2. [Pending](/posts/kubernetes-pod-stuck-pending/)
 > 3. ImagePullBackOff *(coming soon)*
 > 4. OOMKilled *(coming soon)*
 > 5. [CreateContainerConfigError](/posts/kubernetes-createcontainerconfigerror/)
@@ -279,4 +279,4 @@ kubectl delete pod crash-demo done-demo
 
 ---
 
-*Next in the series: **Pod stuck in Pending** — why the scheduler can't place your pod, and how to read what it's telling you.*
+*Next in the series: **[Pod stuck in Pending](/posts/kubernetes-pod-stuck-pending/)** — why the scheduler can't place your pod, and how to read what it's telling you.*

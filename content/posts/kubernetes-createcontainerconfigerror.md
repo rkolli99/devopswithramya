@@ -9,7 +9,7 @@ categories: ["Kubernetes"]
 
 > **Kubernetes Pod Failures — Debugging Series**
 > 1. [CrashLoopBackOff](/posts/kubernetes-crashloopbackoff-fix/)
-> 2. Pending *(coming soon)*
+> 2. [Pending](/posts/kubernetes-pod-stuck-pending/)
 > 3. ImagePullBackOff *(coming soon)*
 > 4. OOMKilled *(coming soon)*
 > 5. **CreateContainerConfigError** ← you are here
