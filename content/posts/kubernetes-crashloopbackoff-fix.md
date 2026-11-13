@@ -11,7 +11,7 @@ author: "Ramya Kolli"
 > **Kubernetes Pod Failures — Debugging Series**
 > 1. **CrashLoopBackOff** ← you are here
 > 2. [Pending](/posts/kubernetes-pod-stuck-pending/)
-> 3. ImagePullBackOff *(coming soon)*
+> 3. [ImagePullBackOff](/posts/kubernetes-imagepullbackoff/)
 > 4. OOMKilled *(coming soon)*
 > 5. [CreateContainerConfigError](/posts/kubernetes-createcontainerconfigerror/)
 > 6. Evicted pods *(coming soon)*
@@ -226,7 +226,7 @@ kubectl delete pod <pod-name>-debug
 Two problems often get mixed up with CrashLoopBackOff, but they show a different status and need a different fix:
 
 - **Missing ConfigMap or Secret** referenced in `env` or `envFrom` — the container never starts, so the status is `CreateContainerConfigError`. See [CreateContainerConfigError explained](/posts/kubernetes-createcontainerconfigerror/).
-- **Wrong image name or tag** — the image can't be pulled, so the status is `ImagePullBackOff` or `ErrImagePull`.
+- **Wrong image name or tag** — the image can't be pulled, so the status is `ImagePullBackOff` or `ErrImagePull`. See [ImagePullBackOff](/posts/kubernetes-imagepullbackoff/).
 
 If your status isn't literally `CrashLoopBackOff`, you're probably looking at one of these.
 

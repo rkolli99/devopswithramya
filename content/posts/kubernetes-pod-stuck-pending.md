@@ -10,7 +10,7 @@ author: "Ramya Kolli"
 > **Kubernetes Pod Failures — Debugging Series**
 > 1. [CrashLoopBackOff](/posts/kubernetes-crashloopbackoff-fix/)
 > 2. **Pending** ← you are here
-> 3. ImagePullBackOff *(coming soon)*
+> 3. [ImagePullBackOff](/posts/kubernetes-imagepullbackoff/)
 > 4. OOMKilled *(coming soon)*
 > 5. [CreateContainerConfigError](/posts/kubernetes-createcontainerconfigerror/)
 > 6. Evicted pods *(coming soon)*
@@ -312,4 +312,4 @@ kubectl label node $(kubectl get nodes -o name | head -1 | cut -d/ -f2) disktype
 
 ---
 
-*Next in the series: **ImagePullBackOff** — wrong tags, private registries and rate limits.*
+*Next in the series: **[ImagePullBackOff](/posts/kubernetes-imagepullbackoff/)** — wrong tags, private registries and rate limits.*
