@@ -11,7 +11,7 @@ author: "Ramya Kolli"
 > 1. [CrashLoopBackOff](/posts/kubernetes-crashloopbackoff-fix/)
 > 2. **Pending** ← you are here
 > 3. [ImagePullBackOff](/posts/kubernetes-imagepullbackoff/)
-> 4. OOMKilled *(coming soon)*
+> 4. [OOMKilled](/posts/kubernetes-oomkilled/)
 > 5. [CreateContainerConfigError](/posts/kubernetes-createcontainerconfigerror/)
 > 6. Evicted pods *(coming soon)*
 

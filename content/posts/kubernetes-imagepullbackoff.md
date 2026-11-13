@@ -11,7 +11,7 @@ author: "Ramya Kolli"
 > 1. [CrashLoopBackOff](/posts/kubernetes-crashloopbackoff-fix/)
 > 2. [Pending](/posts/kubernetes-pod-stuck-pending/)
 > 3. **ImagePullBackOff** ← you are here
-> 4. OOMKilled *(coming soon)*
+> 4. [OOMKilled](/posts/kubernetes-oomkilled/)
 > 5. [CreateContainerConfigError](/posts/kubernetes-createcontainerconfigerror/)
 > 6. Evicted pods *(coming soon)*
 
@@ -295,4 +295,4 @@ kubectl delete pod badtag private
 
 ---
 
-*Next in the series: **OOMKilled** — why your container gets killed for memory, and how to set limits that actually fit.*
+*Next in the series: **[OOMKilled](/posts/kubernetes-oomkilled/)** — why your container gets killed for memory, and how to set limits that actually fit.*

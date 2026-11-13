@@ -12,7 +12,7 @@ author: "Ramya Kolli"
 > 1. **CrashLoopBackOff** ← you are here
 > 2. [Pending](/posts/kubernetes-pod-stuck-pending/)
 > 3. [ImagePullBackOff](/posts/kubernetes-imagepullbackoff/)
-> 4. OOMKilled *(coming soon)*
+> 4. [OOMKilled](/posts/kubernetes-oomkilled/)
 > 5. [CreateContainerConfigError](/posts/kubernetes-createcontainerconfigerror/)
 > 6. Evicted pods *(coming soon)*
 
@@ -127,7 +127,7 @@ If the container dies too fast to `exec` into, see the debugging trick further d
 
 The app uses more memory than its `resources.limits.memory`, and the kernel kills it.
 
-**Find it:** `Last State` shows `Reason: OOMKilled`.
+**Find it:** `Last State` shows `Reason: OOMKilled`. For the full breakdown, see [OOMKilled](/posts/kubernetes-oomkilled/).
 
 **Fix it:** either raise the limit or find out why the app needs that much memory. Raising the limit is fine if the original value was a guess. If memory keeps growing over time, it's a leak, and a bigger limit only delays the crash.
 
