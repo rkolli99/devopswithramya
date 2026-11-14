@@ -17,3 +17,7 @@ defaultContentLanguage = "en"
     url = "/about/"
     weight = 3
     #updated
+  [[menu.main]]
+    name = "Pod Decoder"
+    url = "/tools/pod-error-decoder/"
+    weight = 4

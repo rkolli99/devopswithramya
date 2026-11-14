@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="{{ "css/pod-decoder.css" | relURL }}">
+<div id="pod-decoder" class="pd">
+  <div class="pd-samples"><span>Try an example:</span></div>
+  <textarea id="pd-input" spellcheck="false" placeholder="Paste the output of: kubectl describe pod <pod-name> -n <namespace>"></textarea>
+  <div class="pd-actions">
+    <button type="button" id="pd-run">Decode</button>
+    <button type="button" id="pd-clear">Clear</button>
+    <span class="pd-privacy">Runs in your browser. Nothing you paste is sent anywhere.</span>
+  </div>
+  <div id="pd-result" aria-live="polite"></div>
+</div>
+<script src="{{ "js/pod-decoder.js" | relURL }}" defer></script>

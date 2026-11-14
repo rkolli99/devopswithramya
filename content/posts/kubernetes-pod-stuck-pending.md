@@ -14,6 +14,8 @@ author: "Ramya Kolli"
 > 4. [OOMKilled](/posts/kubernetes-oomkilled/)
 > 5. [CreateContainerConfigError](/posts/kubernetes-createcontainerconfigerror/)
 > 6. [Evicted pods](/posts/kubernetes-evicted-pods/)
+>
+> Not sure which one you have? Paste your `kubectl describe pod` output into the [Pod Error Decoder](/tools/pod-error-decoder/).
 
 You deploy, and the pod just sits there:
 
