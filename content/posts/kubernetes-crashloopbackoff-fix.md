@@ -14,7 +14,7 @@ author: "Ramya Kolli"
 > 3. [ImagePullBackOff](/posts/kubernetes-imagepullbackoff/)
 > 4. [OOMKilled](/posts/kubernetes-oomkilled/)
 > 5. [CreateContainerConfigError](/posts/kubernetes-createcontainerconfigerror/)
-> 6. Evicted pods *(coming soon)*
+> 6. [Evicted pods](/posts/kubernetes-evicted-pods/)
 
 ## What does CrashLoopBackOff mean?
 

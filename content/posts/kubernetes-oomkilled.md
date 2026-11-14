@@ -13,7 +13,7 @@ author: "Ramya Kolli"
 > 3. [ImagePullBackOff](/posts/kubernetes-imagepullbackoff/)
 > 4. **OOMKilled** ← you are here
 > 5. [CreateContainerConfigError](/posts/kubernetes-createcontainerconfigerror/)
-> 6. Evicted pods *(coming soon)*
+> 6. [Evicted pods](/posts/kubernetes-evicted-pods/)
 
 Your pod keeps restarting, and when you look closer you find this:
 
@@ -173,7 +173,7 @@ Memory is fine most of the time, then jumps for one specific operation.
 These two get mixed up, but they're different:
 
 - **OOMKilled** — **your container** went over **its own limit**. Only that container is killed and restarted.
-- **Evicted** — **the node** is running low on memory overall. The kubelet removes whole pods to protect the node, even pods that were within their limits.
+- **Evicted** — **the node** is running low on memory overall. The kubelet removes whole pods to protect the node, even pods that were within their limits. See [Evicted pods](/posts/kubernetes-evicted-pods/).
 
 When a node is under memory pressure, Kubernetes decides which pods to remove first based on their **QoS class**:
 
@@ -252,4 +252,4 @@ kubectl delete pod memory-demo
 
 ---
 
-*Next in the series: **Evicted pods** — what node pressure is, and why Kubernetes removes pods to save the node.*
+*Next in the series: **[Evicted pods](/posts/kubernetes-evicted-pods/)** — what node pressure is, and why Kubernetes removes pods to save the node.*

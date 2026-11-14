@@ -13,7 +13,7 @@ categories: ["Kubernetes"]
 > 3. [ImagePullBackOff](/posts/kubernetes-imagepullbackoff/)
 > 4. [OOMKilled](/posts/kubernetes-oomkilled/)
 > 5. **CreateContainerConfigError** ← you are here
-> 6. Evicted pods *(coming soon)*
+> 6. [Evicted pods](/posts/kubernetes-evicted-pods/)
 
 You deploy, run `kubectl get pods`, and see this:
 
@@ -277,4 +277,4 @@ This catches schema problems, but note it does **not** check that referenced Con
 
 ---
 
-*Next in the series: **Evicted pods** — what node pressure is, and why Kubernetes kills your pod to save the node.*
+*Next in the series: **[Evicted pods](/posts/kubernetes-evicted-pods/)** — what node pressure is, and why Kubernetes kills your pod to save the node.*

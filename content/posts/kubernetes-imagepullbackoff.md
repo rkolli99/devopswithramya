@@ -13,7 +13,7 @@ author: "Ramya Kolli"
 > 3. **ImagePullBackOff** ← you are here
 > 4. [OOMKilled](/posts/kubernetes-oomkilled/)
 > 5. [CreateContainerConfigError](/posts/kubernetes-createcontainerconfigerror/)
-> 6. Evicted pods *(coming soon)*
+> 6. [Evicted pods](/posts/kubernetes-evicted-pods/)
 
 You deploy a new version and the pod never starts:
 
